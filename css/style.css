@@ -63,6 +63,7 @@ body {
   max-width: 1280px;
   margin: auto;
   padding-top: 54px;
+  padding-bottom: 100px;
   display: flex;
 }
 .main-info {
@@ -211,4 +212,58 @@ path.current-floor {
   cursor: pointer;
   border: none;
   background-color: #fff;
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 56px;
+  border-top: 4px solid #3596f5;
+}
+.footbar {
+  max-width: 1280px;
+  margin: auto;
+  display: flex; /* сделали блок гибким */
+  justify-content: space-between; /* расставил элементы по краям */
+  align-items: center;
+}
+.footbar-contacts {
+  text-align: left;
+}
+.footbar-text {
+  display: block;
+  color: #635854;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.footbar-phone {
+  font-weight: 700;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #635854;
+}
+.foot-info {
+  padding: 0;
+  width: 125px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footbar-menu {
+  margin: 0; /* отключаем внешние отступы */
+  padding: 0; /* отключаем внутренние отступы */
+  list-style: none; /* отключаем точки из списка */
+  display: flex;
+  text-align: center;
+}
+.footbar-item {
+  font-weight: 400;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footbar-link {
+  color: #635854;
 }
